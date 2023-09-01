@@ -1,0 +1,376 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(30, 17, 4, 0.7), rgba(30, 17, 4, 0.7)),
+    url(bn.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#title {
+  margin-left: 30px;
+}
+
+.mld {
+  font-family: Monsieur La Doulaise;
+  font-size: 60px;
+
+  color: #866f51;
+}
+nav {
+  display: flex;
+  padding: 1% 6%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.navigation {
+  flex: 1;
+  text-align: right;
+}
+.navigation ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 18px;
+  position: relative;
+}
+.navigation ul li a {
+  color: #fff;
+  text-decoration: wavy;
+  font-size: 13px;
+  font-family: mate;
+  font-size: larger;
+}
+.navigation ul li ::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #804d3b;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.navigation ul li :hover::after {
+  width: 100%;
+  cursor: pointer;
+}
+.navigation ul li :active::after {
+  width: 100%;
+}
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Cinzel Decorative;
+}
+.text-box h1 {
+  color: #fff;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 14px;
+}
+/*-----about-us1------*/
+.about-us {
+  width: 80%;
+  margin-right: -30%;
+  margin-left: 3cm;
+  padding-top: 30px;
+  text-align: left;
+  display: inline-block;
+}
+p {
+  font-family: Cinzel Decorative;
+  margin-right: 20cm;
+  display: block;
+  margin-bottom: 0.5cm;
+  font-size: 22px;
+}
+.pizza {
+  height: 230px;
+  display: inline-block;
+  padding-top: 30px;
+}
+.photo {
+  width: 250px;
+}
+.chef {
+  width: 300px;
+}
+.Welcome {
+  background-color: #b6a896;
+}
+.cd {
+  font-family: cinzel decorative;
+  font-size: x-large;
+  color: #e6e9d6c4;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 38px;
+  color: #866f51;
+  border-top: 3px solid;
+  border-bottom: 1px solid;
+}
+/*---more---*/
+.more h1 {
+  color: #866f51;
+  font-size: xx-large;
+}
+.more p {
+  margin-right: auto;
+  font-size: x-large;
+}
+.more {
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  border: 10px solid;
+  border-color: #9b815f;
+}
+
+.nana {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.lala {
+  width: 100%;
+  display: block;
+}
+.row {
+  margin-top: 50px;
+  position: relative;
+  width: 25%;
+  display: inline-block;
+  border: none;
+  justify-content: space-between;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+.layer:hover {
+  height: 100%;
+  background-color: rgba(75, 56, 39, 0.6);
+  cursor: pointer;
+}
+.layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: white;
+  font-size: 26px;
+  bottom: 0.5cm;
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
+}
+#menu {
+  background-color: #b6a896;
+}
+.menu {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 0.5cm;
+}
+.menu h1 {
+  color: #866f51;
+  font-size: 30px;
+  padding-bottom: 80px;
+}
+.menuu h3 {
+  color: #6e3d31;
+}
+.pl {
+  display: inline-block;
+  font-size: 13px;
+  width: 7cm;
+  text-align: center;
+  padding-left: 3cm;
+  color: #463429e8;
+}
+.roww {
+  display: inline-block;
+}
+.menuu {
+  display: inline-block;
+  width: 500px;
+  height: auto;
+}
+.menuu img {
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+  width: 180px;
+  height: 50px;
+  border: 2px solid;
+  letter-spacing: 7px;
+  cursor: pointer;
+  transition: 0.7s;
+  font-size: 0.45cm;
+}
+.btn {
+  width: 9%;
+  margin: auto;
+  text-align: center;
+  margin-top: 1cm;
+}
+button:hover {
+  box-shadow: 10px 5px 5px #5e4f3ead;
+  color: #fff;
+  background-color: black;
+  border: none;
+  letter-spacing: 1px;
+}
+.fo {
+  width: 100%;
+  display: flex;
+  margin-top: 0.01cm;
+
+  border-top: 0.5px;
+}
+footer {
+  box-sizing: border-box;
+  bottom: 0;
+  width: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-content {
+  width: 600px;
+  display: inline-block;
+}
+.main-content .left-box {
+  flex-basis: auto;
+  padding: 10px 20px;
+  width: 40%;
+  padding-left: 5cm;
+  display: inline-block;
+}
+
+.left-box h1 {
+  font-family: Monsieur La Doulaise;
+  color: #866f51;
+  font-size: 80px;
+}
+.s a {
+  margin: 30px 0 0 0;
+  color: rgb(190, 180, 170);
+  text-decoration: none;
+  transform: 0.5s linear;
+  font-size: 20px;
+}
+
+.s :hover {
+  cursor: pointer;
+  color: black;
+}
+.a {
+  margin: 10px 0 0 0;
+  font-size: 19px;
+  color: rgb(190, 180, 170);
+  text-decoration: none;
+  transform: 0.5s linear;
+  display: inline-block;
+}
+
+.a .place:hover {
+  cursor: pointer;
+  color: black;
+}
+.a .phone:hover {
+  cursor: pointer;
+  color: black;
+}
+.a .email:hover {
+  cursor: pointer;
+  color: black;
+}
+.right-box {
+  display: inline-block;
+  height: 100%;
+  width: auto;
+  text-align: right;
+}
+.send {
+  display: inline-block;
+  width: 20px;
+}
+.cs {
+  font-family: Cinzel Decorative;
+  color: #6e3d31;
+}
+.text {
+  font-family: Cinzel Decorative;
+}
+.bor {
+  border: #6e3d31 2px solid;
+  border-radius: 2cm;
+  width: 300px;
+  height: 50px;
+}
+.msg .bor {
+  height: 300px;
+}
+.submit {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 1cm;
+}
+.submit {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(109, 77, 59);
+  color: white;
+  width: 180px;
+  height: 50px;
+  border: 2px solid;
+  letter-spacing: 7px;
+  cursor: pointer;
+  transition: 0.7s;
+  font-size: 0.45cm;
+  border-radius: 30px;
+  border: none;
+}
+.submit:hover {
+  box-shadow: 10px 5px 5px #5e4f3ead;
+  color: #fff;
+  background-color: rgb(109, 77, 59);
+  border: none;
+  letter-spacing: 1px;
+}
+#hr {
+  border-top: 2px solid;
+  border-bottom: none;
+}
